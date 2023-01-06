@@ -1,0 +1,121 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin:
+}
+
+:root{
+    --tipo-letra: "Nunito", Helvetica, Arial, Sans-sarif;
+    --verde-escuro: rgb(4, 63, 4);
+    --azul-escuro: rgb(7, 7, 45);
+    --rosa-escuro: rgb(142, 73, 84);
+    --rosa-claro: rgb(238, 179, 189);
+    --branco: white;
+    --preto: black;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--tipo-letra);
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.menu-bg{
+    background-color: var(--azul-escuro);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_logo{
+    margin: 10px;
+}
+
+.nav_lista{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav_link{
+    padding: 20px 10px;
+}
+
+.intro{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+hr{
+    border: none;
+    background-color: var(--rosa-escuro);
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
+/* quem somos*/
+
+p{
+    line-height: 21.82px; /* espaçamento entre parágrafo*/
+    padding: 0 10px;
+}
+
+.sessao_titulo{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.somos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.somos_corpo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.somos_texto{
+    display: block;
+}
+
+.somos_imagem{
+    flex: 1 1 350px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* Nossos Produtos*/
+
+.produtos_corpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto{
+    width: 23  0px;
+    margin: 0 20px;
+}
+
+.produto_titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0 5px 0;
+}
